@@ -1,1 +1,2 @@
-Delete MonashFriendFinder\app\build
+When transplant this project,
+Delete  MonashFriendFinder\app\build\intermediates
