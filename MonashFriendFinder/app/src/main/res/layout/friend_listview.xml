@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/friend_detail"
+            android:layout_width="match_parent"
+            android:layout_height="46dp">
+
+            <TextView
+                android:id="@+id/friend_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Jarry Fisher"
+                android:textSize="16dp"
+                android:textColor="@color/colorName" />
+
+
+            <ImageView
+                android:id="@+id/img_below_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/rightward_32" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/img_below_rl"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorBackGround" />
+
+    </LinearLayout>
+
+</LinearLayout>

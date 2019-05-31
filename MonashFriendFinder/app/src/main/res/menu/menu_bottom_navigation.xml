@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item-->
+    <!--android:id="@+id/navigation_community"-->
+    <!--android:icon="@drawable/community_icon"-->
+    <!--android:title="@string/community_title"/>-->
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/love_icon"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/friendlist"
+        android:icon="@drawable/message_icon"
+        android:title="Contacts"/>
+
+    <item
+        android:id="@+id/discover"
+        android:icon="@drawable/me_icon"
+        android:title="Discover"/>
+    <item
+        android:id="@+id/me"
+        android:icon="@drawable/me_icon"
+        android:title="Me"/>
+
+</menu>

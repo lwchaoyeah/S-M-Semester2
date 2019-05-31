@@ -1,0 +1,29 @@
+<resources>
+    <!--MonashFriendFinder Values-->
+
+    <string name="login_title">Login</string>
+    <string name="app_name">MonashFriendFinder</string>
+    <string name="hint_message">Please enter correspongding message</string>
+    <string-array name="sp_nationality">
+        <item>China</item>
+        <item>Japan</item>
+        <item>America</item>
+        <item>Russia</item>
+        <item>Canada</item>
+    </string-array>
+    <string-array name="study_mode">
+        <item>full-time</item>
+        <item>part-time</item>
+    </string-array>
+    <string-array name="units">
+        <item>FIT5183</item>
+        <item>FIT5186</item>
+        <item>FIT5187</item>
+        <item>FIT5190</item>
+    </string-array>
+    <string-array name="sp_native_language">
+        <item>English</item>
+        <item>Mandarin</item>
+        <item>Japanese</item>
+    </string-array>
+</resources>

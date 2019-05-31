@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="Welcome"
+            android:textColor="@color/colorPureWhite"
+            android:background="@color/colorButtonPressed"
+            android:textSize="24dp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:includeFontPadding="false"
+        android:text="@string/login_title"
+        android:textColor="@color/colorTitle"
+        android:textSize="24sp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/tv_sub_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="@dimen/common_margin_10"
+        android:includeFontPadding="false"
+        android:textColor="@color/colorContentMain"
+        android:textSize="@dimen/common_text_size_13"
+        android:text="input your information to show your ID"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="@dimen/common_margin_15"
+        android:layout_marginStart="@dimen/common_margin_15"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:hint="email"
+        android:textColor="@color/colorTitle"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="@dimen/common_margin_15"
+        android:layout_marginStart="@dimen/common_margin_15"
+        android:layout_marginTop="130dp"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:textColor="@color/colorTitle"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="@dimen/common_margin_30"
+        android:layout_marginStart="@dimen/common_margin_30"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_selector_with_corner_24"
+        android:text="Login"
+        android:textColor="@color/colorPureWhite"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submit"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/common_margin_15"
+        android:paddingBottom="@dimen/common_margin_15"
+        android:includeFontPadding="false"
+        android:text="do not have an account? Register"
+        android:textColor="@color/colorTitle"
+        android:textSize="18dp"
+        android:visibility="visible"/>
+
+</RelativeLayout>

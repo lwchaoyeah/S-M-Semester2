@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#00b2b4</color>
+    <color name="colorPrimary">#82d5d6</color>
+    <color name="colorPrimaryTransparent">#FFD1F1F1</color>
+    <color name="colorTitle">#333333</color>
+    <color name="colorContentMain">#666666</color>
+    <color name="colorContentSecondary">#999999</color>
+    <color name="colorDivider">#dddddd</color>
+    <color name="colorBackground">#f4f4f4</color>
+    <color name="colorPureWhite">#ffffff</color>
+    <color name="colorPink">#ff8483</color>
+    <color name="colorDeepOrange">#ffaa71</color>
+    <color name="colorLightGreen">#a0ff72</color>
+    <color name="colorCyan">#82d5d6</color>
+    <color name="colorPurple">#c145f5</color>
+    <color name="colorFutureRed">#cd2d2d</color>
+    <color name="colorFutureDeepOrange">#e45b00</color>
+    <color name="colorFutureGreen">#53bc20</color>
+    <color name="colorFutureCyan">#00b2b4</color>
+    <color name="colorFutureBlue">#2b74d8</color>
+    <color name="colorFutureDeepPurple">#7b0fa8</color>
+    <color name="colorFutureWineRed">#bd0f4c</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="white">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+    <color name="red">@android:color/holo_red_light</color>
+
+    <color name="tab_bg">#f6f6f6</color>
+    <color name="tab_normal">#7e7e7e</color>
+    <color name="tab_selected">#00b9ed</color>
+
+    <color name="bt_normal">#00b4ff</color>
+    <color name="bt_pressed">#BB00b4ff</color>
+
+    <drawable name="colorBackground">#f4f4f4</drawable>
+    <drawable name="list_pressed">#1E90FF</drawable>
+
+    <!--分割线-->
+    <color name="divider">#DBDBDE</color>
+
+    <!-- 选项点击效果 -->
+    <color name="item_pressed">#e7e7e7</color>
+    <!--灰阶蒙板-->
+    <color name="panelGray">#cc6d6d6d</color>
+
+    <color name="gray_pressed">#c1c1c1</color>
+    <color name="gray_normal">#e1e1e1</color>
+    <color name="gray_half">#f1f1f1</color>
+
+    <color name="msg_unagreen_text_color">#8f8e93</color>
+    <color name="login_input">#484848</color>
+
+    <!-- 显示聊天时间字体颜色 -->
+    <color name="chat_time_text">#151515</color>
+
+    <!-- 聊天页面时区显示颜色   -->
+    <color name="chat_time_zone">#c0c0c0</color>
+
+    <color name="divider_80">#25000000</color>
+    <color name="popup_bg">#49494a</color>
+    <color name="bg_orange">#F19249</color>
+    <color name="bg_green">#21AE37</color>
+    <color name="bg_blue">#6acefb</color>
+    <color name="btn_blue">#00b9ed</color>
+    <color name="tv_blue">#0095c0</color>
+
+    <color name="litte_red">#EF3B4F</color>
+    <color name="base_shallow_black">#818181</color>
+    <color name="text_tab_title_def">@color/base_shallow_black</color>
+    <color name="base_bg_gray">#EBEBEB</color>
+
+    <color name="edit_text">@color/black</color>
+    <color name="edit_hint_text">#ffacacac</color>
+
+    <color name="keyboard_burn_color">#ff5555</color>
+    <color name="colorButtonPressed">#10989A</color>
+
+    <!--wewarriors 添加 -->
+
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackGroundPicture">#daefef</color>
+    <color name="colorName">#E5000000</color>
+    <color name="colorSignName">#BF000000</color>
+    <color name="colorBackGround">#efeeee</color>
+    <color name="colorData">#333333</color>
+    <color name="colorPhotoBack">#666666</color>
+</resources>
